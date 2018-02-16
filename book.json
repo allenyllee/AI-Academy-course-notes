@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "mathjax-update-cdn",
+        "mathjax-updated-deps",
         "splitter",
         "expandable-chapters-interactive",
         "scripts"
