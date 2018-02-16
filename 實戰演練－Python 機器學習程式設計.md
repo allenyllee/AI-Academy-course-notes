@@ -851,7 +851,7 @@ $$ F_1 = 2 \cdot \frac{1}{\frac{1}{\mathrm{recall}} + \frac{1}{\mathrm{precision
 
 $$ \mathrm{Recall} = \frac{\mathrm{TP}}{\mathrm{FN + TP}} $$
 
-$$ \mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}} (抓對幾成) $$
+$$ \mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}} (\text{抓對幾成}) $$
 
 用同樣的警察抓壞人為範例，召回率指得是該抓到的壞人實際抓到幾成 (破案率)，召回率高則壞人被抓到的比率高。精確率則是抓對人的比率，冤枉好人的比率變低，精確率就會上升。
 
