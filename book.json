@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "mathjax@1.1.2",
+        "mathjax-commonhtml",
         "splitter",
         "expandable-chapters-interactive",
         "scripts"
