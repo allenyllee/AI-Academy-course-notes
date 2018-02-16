@@ -321,7 +321,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, rand
 
 **Z-score 的公式**
 
-$$x_{\mathrm{new}} = \frac{x_{\mathrm{orig}} - \mu}{\sigma}$$
+$$ x_{\mathrm{new}} = \frac{x_{\mathrm{orig}} - \mu}{\sigma} $$
 
 **minmax 的公式**
 
