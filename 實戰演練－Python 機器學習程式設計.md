@@ -681,10 +681,10 @@ from sklearn import metrics
     [Coefficient of determination - Wikiwand](https://www.wikiwand.com/en/Coefficient_of_determination)
 
 $$
-\begin{align}
+\begin{aligned}
 R^{2} &\triangleq 1 - \frac{SS_{res}}{SS_{tot}}\\
 &= 1 - \frac{\sum_{i=1}^{N} e_i^2}{\sum_{i=1}^{N}{(y_i-\bar{y})^2}}\\
-&= 1 - \frac{\mathrm{total\ error}}{\mathrm{data\ variance}} \end{align}
+&= 1 - \frac{\mathrm{total\ error}}{\mathrm{data\ variance}} \end{aligned}
 $$
 
 $R^2$ Score 用來評估預測倒底解釋了多少資料的變異性。
