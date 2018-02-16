@@ -1,13 +1,9 @@
 {
     "plugins": [
-        "mathjax-commonhtml",
+        "mathjax",
+        "etoc",
         "splitter",
         "expandable-chapters-interactive",
         "scripts"
-    ],
-    "pluginsConfig": {
-        "mathjax-commonhtml": {
-            "defaultScaling": true
-        }
-    }
+    ]
 }
