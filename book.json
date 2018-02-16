@@ -2,7 +2,7 @@
     "plugins": [
         "mathjax-update-cdn",
         "splitter",
-        "bandwidth-toggle-chapters",
+        "expandable-chapters-interactive",
         "scripts"
     ]
 }
