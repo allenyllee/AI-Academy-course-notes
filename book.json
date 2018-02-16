@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "mathjax",
+        "katex",
         "etoc",
         "splitter",
         "expandable-chapters-interactive",
