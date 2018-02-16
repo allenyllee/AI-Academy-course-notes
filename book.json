@@ -1,15 +1,8 @@
 {
     "plugins": [
-        "mathjax",
+        "katex",
         "splitter",
         "toggle-chapters",
         "scripts"
-    ],
-    "pluginsConfig": {
-        "scripts": {
-            "files": [
-                "fix.js"
-            ]
-        }
-    }
+    ]
 }
