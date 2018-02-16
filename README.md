@@ -1,3 +1,6 @@
-# My Awesome Book
+# Introduction
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+這是第一屆台灣人工智慧學校的上課共筆
+
+create: 2018/02/16
+
