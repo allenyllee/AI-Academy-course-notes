@@ -2,6 +2,7 @@
     "plugins": [
         "katex",
         "simple-page-toc",
+        "styled-blockquotes",
         "splitter",
         "expandable-chapters-interactive",
         "scripts"
