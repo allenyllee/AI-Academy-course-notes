@@ -972,11 +972,11 @@ print(metrics.classification_report(actual, predicted))
 
 - 假設資料的 Features 和 Label 之間有線性關係
 
-    $$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + \dots $$
+    $$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + \ldots $$
     
 可以利用 Features Transformation 提升模型的複雜度
 
-$$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + a_{11} x_1^2 + a_{12} x_1 x_2 + \dots $$
+$$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + a_{11} x_1^2 + a_{12} x_1 x_2 + \ldots $$
 
 ### Weight Regularization
 
