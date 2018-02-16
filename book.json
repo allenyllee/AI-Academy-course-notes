@@ -1,9 +1,15 @@
 {
     "plugins": [
         "katex",
-        "etoc",
+        "toc2",
         "splitter",
         "expandable-chapters-interactive",
         "scripts"
-    ]
+    ],
+    "pluginsConfig": {
+        "toc2": {
+            "addClass": true,
+            "className": "toc"
+        }
+    }
 }
