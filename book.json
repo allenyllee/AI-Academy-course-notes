@@ -8,7 +8,7 @@
     "pluginsConfig": {
         "scripts": {
             "files": [
-                "./fix.js"
+                "fix.js"
             ]
         }
     }
