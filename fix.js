@@ -1,0 +1,1 @@
+<script> gitbook.events.bind("page.change", function() { MathJax.Hub.Queue(["Typeset", MathJax.Hub]) } </script>

@@ -1,4 +1,4 @@
-{% include "math.md" %}
+
 
 # 實戰演練－Python 機器學習程式設計
 
