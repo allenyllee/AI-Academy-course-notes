@@ -1,3 +1,5 @@
+{% include "math.md" %}
+
 # 課程 - 吳漢銘 - 機率、統計與 R 語言 
 
 :::info

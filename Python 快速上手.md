@@ -1,3 +1,5 @@
+{% include "math.md" %}
+
 # Python 快速上手
 
 :::info

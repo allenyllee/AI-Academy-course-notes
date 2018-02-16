@@ -1,3 +1,5 @@
+{% include "math.md" %}
+
 # Summary
 
 ## AI Academy 上課筆記
