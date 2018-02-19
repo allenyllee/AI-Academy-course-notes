@@ -10,4 +10,5 @@
 - 如有需要在Gitbook版上增添修正，請自github上fork，修改後提交PR至此 [allenyllee/AI-Academy-course-notes](https://github.com/allenyllee/AI-Academy-course-notes)
 
 updated: 2018/02/19
+
 created: 2018/02/16
