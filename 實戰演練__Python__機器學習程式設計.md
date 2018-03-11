@@ -1,12 +1,13 @@
 # 實戰演練__Python__機器學習程式設計
 
+
 ###### tags: `python` `ML`
 
 :::info
 編輯請按左上角的筆<i class="fa fa-pencil"></i>或旁邊的雙欄模式<i class="fa fa-columns"></i>。請以登入模式幫助編輯喔！
 :::
 
-<!-- toc -->[toc]
+[toc]
 
 # API reference
 
@@ -24,8 +25,14 @@
         - [Line-style reference — Matplotlib 2.1.2 documentation](https://matplotlib.org/gallery/lines_bars_and_markers/line_styles_reference.html?highlight=line%20style%20reference)
 - [Routines — NumPy v1.12 Manual](https://docs.scipy.org/doc/numpy-1.12.0/reference/routines.html)
     - [Index — NumPy v1.12 Manual](https://docs.scipy.org/doc/numpy-1.12.0/genindex.html)
+
+- [SciPy — SciPy v1.0.0 Reference Guide](https://docs.scipy.org/doc/scipy-1.0.0/reference/)
+    - [Index — SciPy v1.0.0 Reference Guide](https://docs.scipy.org/doc/scipy-1.0.0/reference/genindex.html)
 - [The Python Standard Library — Python 3.3.7 documentation](https://docs.python.org/3.3/library/index.html)
     - [Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
+
+- [API Reference — graphviz 0.8.2 documentation](https://graphviz.readthedocs.io/en/stable/api.html)
+    - [User Guide — graphviz 0.8.2 documentation](https://graphviz.readthedocs.io/en/stable/manual.html)
 
 # Day 1 (02/07)
 
@@ -681,10 +688,10 @@ from sklearn import metrics
     [Coefficient of determination - Wikiwand](https://www.wikiwand.com/en/Coefficient_of_determination)
 
 $$
-\begin{aligned}
+\begin{align}
 R^{2} &\triangleq 1 - \frac{SS_{res}}{SS_{tot}}\\
 &= 1 - \frac{\sum_{i=1}^{N} e_i^2}{\sum_{i=1}^{N}{(y_i-\bar{y})^2}}\\
-&= 1 - \frac{\mathrm{total\ error}}{\mathrm{data\ variance}} \end{aligned}
+&= 1 - \frac{\mathrm{total\ error}}{\mathrm{data\ variance}} \end{align}
 $$
 
 $R^2$ Score 用來評估預測倒底解釋了多少資料的變異性。
@@ -769,7 +776,7 @@ $$ \mathrm{Accuracy} = \frac{\mathrm{TN+TP}}{\mathrm{TN + TP + FN + FP}} $$
 
 假如 10 個人中，只有一個壞人，那麼全當作是好人可以得到 TP = 0, TN = 9, FP = 0, FN = 1, 準確率會是
 
-$$ Accuracy = \frac{9 + 0}{9 + 0 + 1 + 0} = \frac{9}{10} = 90\% $$
+$$ Accuracy = \frac{9 + 0}{9 + 0 + 1 + 0} = \frac{9}{10} = 90% $$
 
 不過以警察的立場來說，在執法的過程會寧可冤枉一些好人，也不能放任壞人去為非作歹 (寧枉勿縱)。用準確率來評估會不太適合。
 
@@ -851,7 +858,7 @@ $$ F_1 = 2 \cdot \frac{1}{\frac{1}{\mathrm{recall}} + \frac{1}{\mathrm{precision
 
 $$ \mathrm{Recall} = \frac{\mathrm{TP}}{\mathrm{FN + TP}} $$
 
-$$ \mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}} (\text{抓對幾成}) $$
+$$ \mathrm{Precision} = \frac{\mathrm{TP}}{\mathrm{TP + FP}} (抓對幾成) $$
 
 用同樣的警察抓壞人為範例，召回率指得是該抓到的壞人實際抓到幾成 (破案率)，召回率高則壞人被抓到的比率高。精確率則是抓對人的比率，冤枉好人的比率變低，精確率就會上升。
 
@@ -972,11 +979,11 @@ print(metrics.classification_report(actual, predicted))
 
 - 假設資料的 Features 和 Label 之間有線性關係
 
-    $$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + \ldots $$
+    $$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + \dots $$
     
 可以利用 Features Transformation 提升模型的複雜度
 
-$$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + a_{11} x_1^2 + a_{12} x_1 x_2 + \ldots $$
+$$ y = a_1 x_1 + a_2 x_2 + a_3 x_3 + a_{11} x_1^2 + a_{12} x_1 x_2 + \dots $$
 
 ### Weight Regularization
 
